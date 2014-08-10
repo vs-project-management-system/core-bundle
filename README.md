@@ -3,26 +3,23 @@
 Core bundle for the PMS System sandbox.
 
 ###Entities
-- Address
 - Carousel
 - CarouselItem
 
 ###Forms
-- AddressFormType
 - CarouselFormType
 - CarouselItemFormType
 
 ###Routes
 route name | path
 --- | ---
-pms_address_edit | /addresses/{slug}/edit
-pms_address_index | /addresses
-pms_address_new | /addresses/new
-pms_address_remove | /addresses/{slug}/remove
-pms_address_show | /addresses/{slug}
+pms_carousel_edit | /carousels/{slug}/edit
+pms_carousel_index | /carousels
+pms_carousel_new | /carousels/new
+pms_carousel_remove | /carousels/{slug}/remove
+pms_carousel_show | /carousels/{slug}
 
 ###Repositories
-- AddressRepository
 - CarouselRepository
 - CarouselItemRepository
 
