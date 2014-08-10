@@ -1,11 +1,11 @@
 {
-    "name": "vs-project-management-system/project-bundle",
+    "name": "vs-project-management-system/core-bundle",
     "type": "symfony-bundle",
-    "description": "PMS project bundle. It contains the project for the pms system",
+    "description": "PMS core bundle. It contains the core for the pms system",
     "keywords": [
-        "project"
+        "core"
     ],
-    "homepage": "http://daviddurost.net/projects/pms",
+    "homepage": "http://daviddurost.net/cores/pms",
     "license": "MIT",
     "authors": [
         {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PMS\\Bundle\\ProjectBundle\\": ""
+            "PMS\\Bundle\\CoreBundle\\": ""
         }
     }
 }
